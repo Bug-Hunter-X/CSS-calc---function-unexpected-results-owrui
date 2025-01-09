@@ -1,0 +1,12 @@
+/* bugSolution.css */
+.container {
+  width: 500px; /* Explicitly set parent width */
+}
+
+.element {
+  width: calc((100% - 20px) / 2); /* Use parentheses for clarity and consistent units */
+  background-color: lightblue;
+  padding: 10px;
+  margin: 5px;
+}
+/* The solution includes setting the parent element's width explicitly to provide a solid base for percentage calculations. It also uses parentheses to ensure the correct order of operations and maintains consistent units for reliable results. */
